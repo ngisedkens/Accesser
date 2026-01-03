@@ -107,7 +107,6 @@ CERT/
 hosts
 *.exe
 .1
-config.toml
 rules.toml
 rules
 

@@ -1,0 +1,13 @@
+check_hostname = false
+setproxy = false
+importca = false
+ipv6 = false
+
+[log]
+loglevel = "DEBUG"
+logfile = ""
+
+[server]
+address = "127.0.0.1"
+port = 7654
+pac_host = "127.0.0.1"
