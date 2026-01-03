@@ -1,6 +1,6 @@
 [build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+requires = ["uv-build"]
+build-backend = "uv_build"
 
 [project]
 name = "accesser"
@@ -35,5 +35,5 @@ accesser = "accesser:run"
 "Homepage" = "https://github.com/URenko/Accesser"
 "Bug Tracker" = "https://github.com/URenko/Accesser/issues"
 
-[tool.setuptools.package-data]
-accesser = ["*.toml", "pac"]
+[tool.uv.build-backend]
+module-root = ""

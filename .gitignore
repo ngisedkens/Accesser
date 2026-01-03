@@ -113,3 +113,6 @@ rules
 
 # vscode
 .vscode
+
+# uv
+/uv.lock
